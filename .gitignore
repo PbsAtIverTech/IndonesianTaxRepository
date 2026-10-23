@@ -3,3 +3,17 @@
 rad.json
 .vscode/launch.json
 .vscode/settings.json
+/.alcache/
+/.altemplates/
+/out/
+/bin/
+/.vs/
+# Ignore the entire vscode folder by default
+.vscode/**
+# Force Git to track these critical shared settings
+!.vscode/settings.json
+!.vscode/launch.json
+!.vscode/tasks.json
+!.vscode/extensions.json
+# Strictly ignore developer-specific local overrides
+.vscode/launch.json.local
